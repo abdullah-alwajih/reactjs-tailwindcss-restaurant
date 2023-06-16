@@ -1,18 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: DINNextLTArabic;
+    src: url("./assets/fonts/DINNextLTArabicRegular.ttf");
+    font-weight: 400;
+}
 
+@font-face {
+    font-family: DINNextLTArabic;
+    src: url("./assets/fonts/DINNextLTArabicMedium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    src: url("./assets/fonts/DINNextLTArabicBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    src: url("./assets/fonts/DINNextLTArabicBlack.ttf");
+    font-weight: 900;
+}
+
+* {
+    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    -webkit-tap-highlight-color: transparent !important;
+    vertical-align: text-top;
+    line-height: 1.5; /* Default line height */
+}
+
+:root {
+    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    vertical-align: text-top;
+    line-height: 1.5; /* Default line height */
+
+}
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
